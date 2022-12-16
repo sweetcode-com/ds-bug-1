@@ -1,0 +1,17 @@
+# DS bug 1
+
+Lorem ipsum
+
+Regular way to import images (working)
+
+ ![example](./example.png)
+
+Using the standard ES import syntax (NOT working)
+
+import myImageUrl from './example.png';
+
+<img src={myImageUrl}  />;
+
+Using the plugin-ideal-image import syntax (NOT working)
+
+<Image img={require('./example.png')} />
